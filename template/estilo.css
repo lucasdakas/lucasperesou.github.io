@@ -1,0 +1,570 @@
+#sad{
+    background-color: #000;
+}
+#nav{
+padding: 100px;
+}
+#receba{
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;   
+
+    header {
+    background-color: #000;
+    color: #d4af37; /* Dourado */
+    padding: 200px 0;
+   
+}
+
+    header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header h1 {
+    font-size: 2em;
+}
+
+    nav ul {
+    list-style: none;
+    display: flex;
+}
+
+    nav ul li {
+    margin-left: 20px;
+}
+
+    nav ul li a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    main {
+    padding: 40px 0;
+}
+
+    .testimonials {
+    background-color: #333;
+    padding: 40px 0;  
+    
+}
+
+    .testimonials .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+   
+    gap: 10px; /* Espaçamento entre as imagens */
+    width: 45%; /* Ajuste*/
+   position: relative;
+   left: 300px;
+   bottom: 450px;
+   height:25px ;
+   
+  
+}
+
+}
+
+
+
+.testimonials h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 165px;
+}
+
+    .testimonial-card {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 0;
+    position: relative; 
+    bottom: 150px;
+    margin: 30px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+    .testimonial-card p {
+    font-style: italic;
+   
+
+}
+
+    .testimonial-card h3 {
+    color: #d4af37;
+    margin-top: 10px;
+    
+}
+
+    .testimonial-form {
+    background-color: #333;
+    
+    padding: 100px 0;
+
+   
+
+}
+
+    .testimonial-form .container {
+    width: 80%;
+    margin: 0 ;
+    text-align: center;     
+    position: relative;
+    right: 175px;
+}
+
+    .testimonial-form h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+    label {
+    color: #f0f0f0;
+    font-weight: bold;
+    display: block;
+}
+
+    input, textarea {
+    border: 1px solid #d4af37;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #222;
+    color: #f0f0f0;
+}
+
+    button {
+    background-color: #dda200;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    #botao:hover {
+    background-color: #b8922b;
+   
+}
+
+#noticia{
+    background-image: url(../Imagens/Imagens/fundo\ preto\ e\ dourado.png);
+    
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #333;
+        color: #FFD700;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+    header .container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    nav ul {
+        list-style: none;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 20px;
+        margin: 10px auto;
+        width: 80%;
+    }
+    
+    section h2 {
+        margin-bottom: 20px;
+    }
+    
+    article {
+        display: flex;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    article img {
+        width: 200px;
+        height: 230px;
+        object-fit: cover;
+    }
+    
+    .texto-noticia, .texto-evento {
+        padding: 15px;
+        flex: 1;
+        background-color: gray;
+    }
+    
+    .texto-noticia h3, .texto-evento h3 {
+        margin-bottom: 10px;
+    }
+    strong{
+        color: black;
+    }
+    .h2noticias{
+        color: rgb(255, 255, 255);   
+    }
+   
+    .h3noticias{
+           color: #ffee00;
+    }
+    .texto-noticia p{
+         color: #ffffff;
+    }
+    .texto-evento p{
+        color: #ffffff;
+   }
+   #texto-evento-p{
+    color: #c5bb30;
+   }
+    footer .container {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    
+    footer p {
+        margin-bottom: 10px;
+    }
+    
+}
+body{
+   margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+background-image: url(../Imagens/Imagens/estrada.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#sla{
+    font-family: Arial, sans-serif;
+    background-color: #242424;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Imagens/Imagens/carro8.png); /* Caminho para a imagem de fundo */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-position: center; /* Centralizar a imagem */
+    background-size: cover; /* Cobrir toda a área do formulário */
+}
+.containerr {
+    max-width: 600px;
+    margin: 50px 0 50px 55px;
+    background-color: #1a1a1a; /* Fundo preto escuro para o formulário */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(230, 195, 1, 0.836); /* Sombra dourada */
+    border-left: 5px solid #DAA520; /* Borda dourada */
+    border-right: 5px solid #000000;
+    
+}
+#texto{
+    text-align: center;
+    color: #a39f9f;
+    margin-bottom: 20px;
+}
+.carousel-item img{
+    display: block;
+    margin: 0 20px auto;
+    max-width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    max-width: calc(100%-40px);
+    box-sizing: border-box;
+}
+#carouselExampleInterval{
+    margin-top: 56px;
+    width: 1000px;
+    height: 70vh;
+    display: block;
+ margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  padding: 105px 20px 20px 20px;
+    position: relative;
+bottom: 80px;
+
+margin-top:76px;
+object-fit:cover
+
+
+
+}
+@media (max-width: 600px) {
+    .containerr {
+        padding: 15px;
+    }
+}
+
+.formulario label{
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    color: #a19e9e;
+   
+}
+.formulario button{
+    width: 100%;
+    padding: 12px;
+    background-color: #050505; /* Botão dourado */
+    color: rgb(235, 235, 235); /* Texto preto */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer
+}
+.formulario button:hover {
+    background-color: #C19117; /* Dourado mais escuro ao passar o mouse */
+}
+#cadastro{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card .corpo {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: top 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: #fff;
+}
+
+.card:hover .corpo {
+    top: 0;
+    opacity: 1;
+}
+
+.card-title, .card-text {
+    margin: 0;
+    padding: 10px;
+}
+.image-box .card-box{
+    height: 100px
+}
+/* Hover para as imagens solo */
+.hover-card {
+    position: relative;
+    overflow: hidden;
+    width: 15rem;
+    transition: transform 0.3s ease;
+    height: 350px;
+    cursor: pointer;
+    
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.hover-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+   
+}
+
+.hover-card:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hover-text {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hover-card:hover .hover-text {
+    right: 0;
+}
+
+/* Hover para a imagem de equipe */
+.team-header {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+}
+
+.image-overlay {
+    position: relative;
+    display: inline-block;
+    width: 1000px; /* Largura da imagem */
+    height: 500px; /* Altura da imagem */
+    left: 250px;
+    cursor: pointer;
+}
+
+.image-overlay img {
+    display: block;
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+ 
+}
+
+.image-overlay:hover img {
+   filter: grayscale(100%);
+cursor: pointer;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 400px;
+   filter: grayscale(100%);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Inicialmente invisível */
+    transition: opacity 0.5s ease;
+    padding: 20px;
+    box-sizing: border-box;
+    
+  
+    
+}
+
+.image-overlay:hover .overlay-text {
+    opacity: 1; /* Torna o texto visível ao passar o mouse */
+}
+
+#empresa {
+    background-color: #363232; /* Fundo preto */
+    color: #d4af37; /* Texto dourado */
+    padding: 50px 0;
+}
+
+#empresa h2 {
+    color: #d4af37; /* Título dourado */
+}
+
+#empresa p.lead {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    text-align: justify;
+    color: white;
+    
+}
+
+#empresa img {
+    border: 5px solid #d4af37; /* Borda dourada ao redor da imagem */
+    border-radius: 10px;
+}
+
+/* Seção de Destaques */
+#destaques {
+    background-color: #181717; /* Fundo cinza escuro */
+    height: 200px;
+}
+
+#destaques h2 {
+    color: #d4af37; /* Título dourado */
+    text-align: center;
+}
+
+#destaques h3 {
+    color: #d4af37; /* Subtítulo dourado */
+    margin-bottom: 20px;
+}
+
+#destaques p {
+    color: #ffffff; /* Texto branco */
+    text-align: justify;
+    
+}
+#depoimento{
+    position: relative;
+    top: 100px  ;
+    
+}
+.bem-vindo{
+    text-align: center;
+    color: #f8c128;
+    position: relative;
+    top: 50px;
+
+}

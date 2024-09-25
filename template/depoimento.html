@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TouroMotors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+<link rel="shortcut icon" type="imagex/png" href="../Imagens/Imagens/8-removebg-preview.ico">
+<body id="sad" >
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="../Imagens/Imagens/8.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            TouroMotors</a>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">TouroMotors
+            
+              </h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Garagem</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="equipe.html">Equipe</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Depoimento</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <header>
+      <main id = "receba">
+        
+        <section class="testimonial-form">
+            <div class="container">
+                <h2>Deixe seu depoimento</h2>
+                <form action="#" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Depoimento:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button id="enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section class="testimonials">
+          <div class="container">
+              <h2>O que nossos clientes dizem</h2>
+              <div class="testimonial-card">
+                  <p>"A Touromotors transformou minha experiência de compra de veículos. Atendimento excepcional e produtos de alta qualidade!"</p>
+                  <h3>João Silva</h3>
+                  <p>Cliente Satisfeito</p>
+              </div>
+              <div class="testimonial-card">
+                  <p>"Não poderia estar mais feliz com o meu novo carro. A equipe da Touromotors foi incrível em todos os aspectos!"</p>
+                  <h3>Maria Oliveira</h3>
+                  <p>Cliente Feliz</p>
+              </div>
+              <div class="testimonial-card">
+                  <p>"Recomendo a Touromotors a todos que procuram um serviço de primeira linha. Eles realmente sabem como atender bem!"</p>
+                  <h3>Carlos Santos</h3>
+                  <p>Cliente Feliz</p>
+              </div>
+              
+          </div>
+      </section>
+      </main>
+    </header>
+    <footer id = depoimento>
+      <div class="container">
+          <h5>&copy; 2024 Touromotors - Todos os direitos reservados</h5>
+          <h5>Endereço: Rua das Máquinas, 123, São Paulo, SP</h5>
+          <h5>Email: contato@touromotors.com.br</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+            <path d="M16.5 7.5l0 .01" />
+            
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+          </svg>
+      </div>
+  </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
